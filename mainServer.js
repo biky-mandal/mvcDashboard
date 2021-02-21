@@ -24,9 +24,9 @@ const cors = require('cors');
 app.use(cors());
 
 // Importing routes for student
-const studentAuthRoutes = require('./routers/auth');
-const fetchStudent = require('./routers/fetch');
-const fetchAttendence = require('./routers/attendence');
+const studentAuthRoutes = require('./backend/routers/auth');
+const fetchStudent = require('./backend/routers/fetch');
+const fetchAttendence = require('./backend/routers/attendence');
 
 
 // For Student
